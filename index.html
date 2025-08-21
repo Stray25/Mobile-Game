@@ -14,8 +14,9 @@
     html, body {
       margin: 0;
       padding: 0;
-      overflow: hidden;
-      touch-action: none;
+      overflow-x: hidden;
+      overflow-y: auto;
+      touch-action: pan-y; /* allows vertical scrolling but disables pinch zoom */
     }
 
     button, div, span {
