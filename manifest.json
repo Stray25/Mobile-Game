@@ -1,0 +1,22 @@
+{
+  "name": "Library Manager Idle Game",
+  "short_name": "LibraryManager",
+  "description": "An idle game where you manage a library, collect books and expand your archives.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6c63ff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "book_stack.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "book_stack.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
